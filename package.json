@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ernt/weekly_mission_4-_P1#readme",
   "devDependencies": {
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "globalthis": "^1.0.3"
   }
 }
