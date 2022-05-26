@@ -4,7 +4,7 @@
   "description": "P1",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node ./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/ernt/weekly_mission_4-_P1/issues"
   },
   "homepage": "https://github.com/ernt/weekly_mission_4-_P1#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^28.1.0"
   }
 }
