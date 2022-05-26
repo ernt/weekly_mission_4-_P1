@@ -4,23 +4,20 @@
   "description": "P1",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test":  "node ./node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ernt/weekly_mission_4-_P1.git"
   },
   "keywords": [],
-  "author": "ernt",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ernt/weekly_mission_4-_P1/issues"
-  },
-  "homepage": "https://github.com/ernt/weekly_mission_4-_P1#readme",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "eslint": "^8.14.0",
+    "jest": "^27.5.1"
   },
   "dependencies": {
-    "globalthis": "^1.0.3"
+    "express": "^4.17.3"
   }
 }
