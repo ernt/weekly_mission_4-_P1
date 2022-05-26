@@ -1,0 +1,23 @@
+{
+  "name": "weekly_mission_4-_p1",
+  "version": "1.0.0",
+  "description": "P1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernt/weekly_mission_4-_P1.git"
+  },
+  "keywords": [],
+  "author": "ernt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernt/weekly_mission_4-_P1/issues"
+  },
+  "homepage": "https://github.com/ernt/weekly_mission_4-_P1#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
