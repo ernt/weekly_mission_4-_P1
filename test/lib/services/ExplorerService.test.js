@@ -32,3 +32,12 @@ describe("Test for ExplorerService", () => {
       
 	});
 });
+
+describe("Test for ExplorerService", () => {
+	test("4. Get the explorers stack ", () => {
+		const explorers = read.readJsonFile("./data/explorers.json");
+		const explorerservice = ExplorerService.module.getExplorerStack(explorers, "javascript");
+		expect(explorerservice).not.toBeUndefined();
+      
+	});
+});

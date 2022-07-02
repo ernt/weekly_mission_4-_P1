@@ -25,3 +25,11 @@ describe("Test for Explorercontroler", () => {
       
 	});
 });
+
+describe("Test for Explorercontroler", () => {
+	test("4. Get the explorers stacks in javascripts", () => {
+		const explorercontroler = Explorercontroler.module.getExplorersBystackinStacks("javascript");
+		expect(explorercontroler).not.toBeUndefined();
+      
+	});
+});
